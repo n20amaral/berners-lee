@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+.reveal{
+    /* background: url('http://blogs.bcu.ac.uk/cebe/files/2017/06/this-is-for-everyone-tim-berners-lee-olympics-1.jpg');
+    background-size: cover; */
+    background: url('../../img/solid-background.png') no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    font-family: 'Fjalla One', sans-serif;
+    color: darkslategray;
+}
+
+.reveal > header {
+    position: absolute;
+    top:0;
+    background-color:#3f1ca0;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.reveal > .slides > section > header {
+    position: absolute;
+    top: 0;
+}
+
+.reveal > .slides > section > header > h3 {
+    color: white;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4{
+    font-family: 'Fjalla One', sans-serif;
+    color: #3f1ca0;
+}
+
+.reveal section img {
+    border: 0;
+    box-shadow: 0 0 0 black;
+    max-height: 50vh;
+}
+
+.reveal section img + div.img-label {
+    background-color: white;
+    border: 3px solid #936DFD;
+    border-radius: 60px;
+    padding: 20px !important;
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #936DFD;
+}
+
+.item-list {
+    display: flex;
+}
+
+.item-list img {
+    max-width: 30vh;
+    padding: 0 30px;
+}
+
+.item-list p{
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+
+.reveal section img.front-cover-img {
+    max-height: 40vh;
+}
+
+.reveal cite {
+    font-size: 2rem;
+    color: darkslategray;
+}
+
+.reveal .link{
+    margin-top: 3vh;
+    display: block;
+    font-size: 1.7rem;
+    color: #818181;
+}
+
+.reveal .link small{
+    display: block;
+    font-size: 1.5rem;
+    color: #936DFD;
+}
+
+
+footer {
+    position: absolute;
+    left: 2vh;
+    bottom: 2vh;
+}
+
+.reveal footer div {
+    font-size: 1rem;
+    color: #936DFD;
+    line-height: 1.5rem;
+}
+
+.reveal footer a {
+    font-size: 1rem;
+    color: #3f1ca0;
+}
+
+.reveal footer span.presentation-title {
+    font-size: 1.5rem;
+    color: #818181;
+}
